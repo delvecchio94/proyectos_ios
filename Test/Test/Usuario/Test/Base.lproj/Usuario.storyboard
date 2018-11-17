@@ -147,7 +147,7 @@
         <scene sceneID="63w-lh-ZPu">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JcE-Nz-Ecb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Usuarios" id="bVb-a1-QMc"/>
+                    <tabBarItem key="tabBarItem" title="Usuarios" image="icon_profile" id="bVb-a1-QMc"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IKY-qN-U7W">
@@ -164,4 +164,7 @@
             <point key="canvasLocation" x="1592.8" y="115.59220389805098"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_profile" width="25" height="25"/>
+    </resources>
 </document>

@@ -16,10 +16,11 @@ extension PostViewController{
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let celda = tableView.dequeueReusableCell(withIdentifier: "CellPost")
-        celda?.textLabel?.text = posts[indexPath.row].title
-        celda?.detailTextLabel?.text = posts[indexPath.row].body
-        return celda!
+        let celda = tableView.dequeueReusableCell(withIdentifier: "CellPost") as! PostCell
+        celda.postDelegate = self
+        celda.titulo.text = posts[indexPath.row].title
+        celda.texto.text = posts[indexPath.row].body
+        return celda
     }
     
 }

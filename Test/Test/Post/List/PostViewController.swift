@@ -10,8 +10,7 @@ import Foundation
 import UIKit
 import Models
 
-class PostViewController: UITableViewController{
-    
+class PostViewController: UITableViewController,PostCellDelegate{
     var posts: [Post] = []{
         didSet {
             tableView.reloadData()
@@ -20,12 +19,21 @@ class PostViewController: UITableViewController{
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        tableView.rowHeight = UITableView.automaticDimension
         PostStore.buscarPosts { (post) in
             guard let posts = post else{
                 return
             }
             self.posts = posts
         }
+    }
+    
+    func postCellLike(cell: PostCell) {
+        print("like")
+    }
+    
+    func postCellMark(cell: PostCell) {
+        print("mark")
     }
     
 }

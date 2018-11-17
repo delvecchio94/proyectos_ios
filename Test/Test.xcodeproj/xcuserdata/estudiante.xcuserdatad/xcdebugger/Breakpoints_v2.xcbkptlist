@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Test/Image/ImageViewController.swift"
-            timestampString = "564111827.561265"
+            timestampString = "564167511.5967669"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "unwindToImage(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

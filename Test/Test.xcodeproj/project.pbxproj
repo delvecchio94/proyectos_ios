@@ -12,6 +12,8 @@
 		DB36D44B218E13F8002A877F /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36D44A218E13F8002A877F /* PostViewController.swift */; };
 		DB36D450218E14A6002A877F /* Post.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB36D44E218E14A6002A877F /* Post.storyboard */; };
 		DB36D452218E15B8002A877F /* PostViewDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36D451218E15B8002A877F /* PostViewDS.swift */; };
+		DB42115221A05C1F0011C663 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB42115121A05C1F0011C663 /* PostCell.swift */; };
+		DB42115421A074C70011C663 /* FormularioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB42115321A074C70011C663 /* FormularioViewController.swift */; };
 		DB4F58DD2184D33700054762 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F58DC2184D33700054762 /* TableViewController.swift */; };
 		DB4F58DF2184D42400054762 /* TableViewDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F58DE2184D42400054762 /* TableViewDS.swift */; };
 		DB4F58E12184E0E300054762 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F58E02184E0E300054762 /* CollectionViewController.swift */; };
@@ -91,6 +93,8 @@
 		DB36D44A218E13F8002A877F /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		DB36D44F218E14A6002A877F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Test/Main/Base.lproj/Post.storyboard; sourceTree = "<group>"; };
 		DB36D451218E15B8002A877F /* PostViewDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewDS.swift; sourceTree = "<group>"; };
+		DB42115121A05C1F0011C663 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		DB42115321A074C70011C663 /* FormularioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioViewController.swift; sourceTree = "<group>"; };
 		DB4F58DC2184D33700054762 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		DB4F58DE2184D42400054762 /* TableViewDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDS.swift; sourceTree = "<group>"; };
 		DB4F58E02184E0E300054762 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
@@ -239,6 +243,7 @@
 			children = (
 				DB36D44A218E13F8002A877F /* PostViewController.swift */,
 				DB36D451218E15B8002A877F /* PostViewDS.swift */,
+				DB42115121A05C1F0011C663 /* PostCell.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 			children = (
 				DBE6A5CA219F997400D5967E /* ImageViewController.swift */,
 				DBE6A5CC219F99E900D5967E /* Image.storyboard */,
+				DB42115321A074C70011C663 /* FormularioViewController.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -508,7 +514,9 @@
 				DBF42DE32184A41C001BDC80 /* AppDelegate.swift in Sources */,
 				DB4F58E12184E0E300054762 /* CollectionViewController.swift in Sources */,
 				DB9BCC1F218D1D700031043E /* CustomCell.swift in Sources */,
+				DB42115421A074C70011C663 /* FormularioViewController.swift in Sources */,
 				DB4F58E32184E0F100054762 /* CollectionViewDS.swift in Sources */,
+				DB42115221A05C1F0011C663 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
