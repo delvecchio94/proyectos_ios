@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import Models
 
 class DetalleViewController: UIViewController{
     var usuario: Usuario?

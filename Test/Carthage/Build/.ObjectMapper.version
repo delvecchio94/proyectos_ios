@@ -1,0 +1,9 @@
+{
+  "commitish" : "3.4.1",
+  "iOS" : [
+    {
+      "name" : "ObjectMapper",
+      "hash" : "9fa3cf2cb30a68ad0c570841785410008fd18513d1a3849d75195a2f7485a8d0"
+    }
+  ]
+}

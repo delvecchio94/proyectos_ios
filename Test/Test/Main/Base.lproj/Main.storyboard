@@ -230,18 +230,30 @@
             </objects>
             <point key="canvasLocation" x="1810" y="-896"/>
         </scene>
+        <!--Image-->
+        <scene sceneID="xNi-AJ-jhP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Image" id="H3x-Gl-ocj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="uzY-OW-nkf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lvO-Cj-9mq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="710" y="-370"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rEs-px-vvo">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="iir-wj-ymE" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Y2h-21-d5l">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="JTy-Lf-F1l" kind="relationship" relationship="viewControllers" id="6fX-4g-dfo"/>
                         <segue destination="beM-h0-qKQ" kind="relationship" relationship="viewControllers" id="3hu-Dl-NAK"/>
+                        <segue destination="H3x-Gl-ocj" kind="relationship" relationship="viewControllers" id="tYj-bQ-RIS"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Jg-GI-8aD" userLabel="First Responder" sceneMemberID="firstResponder"/>
