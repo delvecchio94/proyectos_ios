@@ -1,0 +1,9 @@
+{
+  "commitish" : "5.0.0",
+  "iOS" : [
+    {
+      "name" : "SwiftValidator",
+      "hash" : "1c5e7426e0aeabe35bb814d613a98cd1b0ea66cb6bfae3efc3c1f3271c7a9310"
+    }
+  ]
+}
